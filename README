@@ -1,0 +1,16 @@
+Blosxom on fluxflex.
+
+You should change "public_html/config.cgi".
+
+Base directory:
+
+    $basedir = "/home/blosxom/public_html";
+
+Site URL:
+
+    $url = "http://blosxom.fluxflex.com/";
+
+Password:
+
+    $wikieditish_blog_password = "";
+

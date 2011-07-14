@@ -1,0 +1,7 @@
+Options +FollowSymLinks +ExecCGI
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ blosxom.cgi/$1 [L,QSA]
+DirectoryIndex blosxom.cgi index.html index.htm
