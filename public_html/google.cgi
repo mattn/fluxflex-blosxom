@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
 
 # This script based on:
 # http://www.hyuki.com/netserv/google.html
