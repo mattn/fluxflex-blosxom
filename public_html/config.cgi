@@ -167,7 +167,7 @@ $entry_title_title_sep = ' :: ';
 # URI::Escapeモジュールが必要です
 
 # Googleでの検索結果にリダイレクトするCGIの絶対URLまたは"/"で始まる絶対パス
-$google_cgi_path = "/blosxom/google.cgi";
+$google_cgi_path = "/google.cgi";
 
 # 検索結果を絞り込むためのキーワード
 # site:example.com
